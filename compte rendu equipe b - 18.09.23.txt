@@ -14,7 +14,7 @@ Travail fait en cours :
 
 1) Début de la création de la maquette. (Abdullah-Tourab). Réalisation du MCD. (Vincent-Abdullah-Tourab)
 
-2) Continuer sur la maquette et le plan.
+2) Continuer sur la maquette, le plan, et les URLS
 
 
 
