@@ -1,0 +1,24 @@
+Atelier de professionnalisation 1
+Date de séance : 18/09/23
+
+Equipe b : Asci Abdullah, Chantraine Vincent et Tourab Syed Zaidi.	
+
+Objectifs : Commencer la maquette et le plan du site. Créer le MCD.
+
+Sommaire :
+
+1. Travail réalisé
+2. Travail à faire pour la prochaine séance
+
+Travail fait en cours :
+
+1) Début de la création de la maquette. (Abdullah-Tourab). Réalisation du MCD. (Vincent-Abdullah-Tourab)
+
+2) Continuer sur la maquette, le plan, et les URLS
+
+
+
+
+
+
+
