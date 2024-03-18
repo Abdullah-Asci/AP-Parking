@@ -54,7 +54,7 @@ echo '<body>';
 
 echo '<div class="navbar">';
 echo '    <a href="#">Accueil</a>';
-echo '    <a href="#">Connexion</a>';
+echo '<a href="' . url('/dashboard') . '" class="text-sm text-gray-700 dark:text-gray-500 underline">Connexion</a>';
 echo '    <a href="#">Mes réservations</a>';
 echo '</div>';
 
