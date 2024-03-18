@@ -55,7 +55,7 @@ echo '<body>';
 echo '<div class="navbar">';
 echo '    <a href="#">Accueil</a>';
 echo '<a href="' . url('/dashboard') . '" class="text-sm text-gray-700 dark:text-gray-500 underline">Connexion</a>';
-echo '<a href="' . url('/reserve') . '" class="text-sm text-gray-700 dark:text-gray-500 underline">Mes réservations</a>';
+echo '<a href="' . url('/') . '" class="text-sm text-gray-700 dark:text-gray-500 underline">Mes réservations</a>';
 echo '</div>';
 
 echo '<div class="title">';
@@ -73,15 +73,6 @@ echo '        <li>Recevez votre confirmation de réservation par email.</li>';
 echo '    </ol>';
 echo '</div>';
 
-echo '<div class="timetable">';
-echo '    <h2>Horaires :</h2>';
-echo '    <p>Lundi - Vendredi : 8h00 - 20h00</p>';
-echo '    <p>Samedi - Dimanche : 9h00 - 18h00</p>';
-echo '</div>';
-
-echo '<div class="footer">';
-echo '    <p>&copy; 2024 Tous droits réservés</p>';
-echo '</div>';
 
 echo '</body>';
 echo '</html>';
