@@ -1,4 +1,5 @@
-<x-guest-layout>
+<link href="{{ asset('css/style1.css') }}" rel="stylesheet">
+<x-guest-layout >
     <x-auth-card>
         <x-slot name="logo">
             <a href="/">
@@ -50,7 +51,7 @@
                     {{ __('Already registered?') }}
                 </a>
 
-                <x-button class="ml-4">
+                <x-button class="ml-4 ee">
                     {{ __('Register') }}
                 </x-button>
             </div>
