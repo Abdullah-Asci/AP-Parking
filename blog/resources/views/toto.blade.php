@@ -55,7 +55,8 @@ echo '<body>';
 echo '<div class="navbar">';
 echo '    <a href="#">Accueil</a>';
 echo '<a href="' . url('/dashboard') . '" class="text-sm text-gray-700 dark:text-gray-500 underline">Connexion</a>';
-echo '<a href="' . url('/reserve') . '" class="text-sm text-gray-700 dark:text-gray-500 underline">Mes réservations</a>';
+echo '<a href="' . url('/register') . '" class="text-sm text-gray-700 dark:text-gray-500 underline">Incrisption</a>';
+echo '<a href="' . url('/reserve') . '" class="text-sm text-gray-700 dark:text-gray-500 underline">Mes Réservation</a>';
 echo '</div>';
 
 echo '<div class="title">';
