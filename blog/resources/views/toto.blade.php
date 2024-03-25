@@ -2,6 +2,7 @@
 echo '<!DOCTYPE html>';
 echo '<html lang="fr">';
 echo '<head>';
+echo'<link rel="stylesheet" type="text/css" href="style2.css" /> ';
 echo '    <meta charset="UTF-8">';
 echo '    <meta name="viewport" content="width=device-width, initial-scale=1.0">';
 echo '    <title>Réservation de places de parking</title>';
@@ -51,6 +52,7 @@ echo '        }';
 echo '    </style>';
 echo '</head>';
 echo '<body>';
+echo'<div class = "h1"> Salut </div>';
 
 echo '<div class="navbar">';
 echo '    <a href="#">Accueil</a>';
