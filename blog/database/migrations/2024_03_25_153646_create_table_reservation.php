@@ -16,8 +16,8 @@ class CreateTableReservation extends Migration
         Schema::create('reservations', function (Blueprint $table) {
             
             $table->id();
-            $table->date('Deb_Reserv');
-            $table->date('Fin_Reserv');
+            $table->dateTime('Deb_Reserv');
+            $table->dateTime('Fin_Reserv');
             $table->BigInteger('user_id')->unsigned();
             $table->BigInteger('place_id')->unsigned();
             $table->foreign('user_id')->references('id')->on('users');
