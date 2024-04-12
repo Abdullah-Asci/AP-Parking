@@ -23,11 +23,27 @@
             text-decoration: none;
         }
         .title {
-            background: linear-gradient(to right, yellow, white);
-            padding: 20px;
-            text-align: center;
-            margin-top: 20px;
+    background: linear-gradient(to right, yellow, white);
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
         }
+
+        .button-link {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 25px;
+            text-decoration: none;
+            color: black;
+            border: 1px solid black;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button-link:hover {
+            background-color: lightgray;
+        }
+
         .steps {
             margin-top: 20px;
             text-align: center;
@@ -55,16 +71,15 @@
     <a href="/" class="text-sm text-gray-700 dark:text-gray-500 underline">Accueil</a>
     <a href="/dashboard" class="text-sm text-gray-700 dark:text-gray-500 underline">Connexion</a>
     <a href="/register" class="text-sm text-gray-700 dark:text-gray-500 underline">Inscription</a>
-    <a href="/reserve" class="text-sm text-gray-700 dark:text-gray-500 underline">Mes Réservations</a>
-    <a href="/create" class="text-sm text-gray-700 dark:text-gray-500 underline">Création</a>
+    
 </div>
 
 <div class="title">
-    <h1>Premier arrivé, premier servi</h1>
-    <h2>En 2 minutes, réservez vos places de parking dans une rapidité et facilité incomparable aux autres.</h2>
+    <a href="/create" class="button-link">Cliquez ici pour demander une reservation</a>
 </div>
 
 <div class="steps">
+    <br><br><br><br><br><br><br><br>
     <h2>Comment ça marche :</h2>
     <ol>
         <li>Choisissez votre lieu de stationnement.</li>
