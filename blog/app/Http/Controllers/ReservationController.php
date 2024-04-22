@@ -14,19 +14,13 @@ class ReservationController extends Controller
     public function store(Request $request)
     {
         if (!Auth::check()) {
-<<<<<<< Updated upstream
             return '<br><br> <br>
             <br><br><h1> Erreur: Vueillez vous connecter avant. </h1>';
         }
         
-=======
-            return 'Veuillez vous connecter avant de réserver...';
-        }
->>>>>>> Stashed changes
            // Récupérer l'ID de l'utilisateur authentifié
-
        $userID = auth()->user()->id;
-       
+
            // Supprimer les réservations antérieures à la date actuelle
        Reservation::where('Fin_Reserv', '<', now())->delete();
            
@@ -42,8 +36,6 @@ class ReservationController extends Controller
            // Aucune place disponible, rediriger vers la liste d'attente
        return ('error, Aucune place disponible pour effectuer la réservation.');
        }
-       
-       
 
        // Calculer la date et l'heure actuelles
        $currentDateTime = now();
