@@ -71,7 +71,11 @@
     <a href="/" class="text-sm text-gray-700 dark:text-gray-500 underline">Accueil</a>
     <a href="/dashboard" class="text-sm text-gray-700 dark:text-gray-500 underline">Connexion</a>
     <a href="/register" class="text-sm text-gray-700 dark:text-gray-500 underline">Inscription</a>
+<<<<<<< Updated upstream
     
+=======
+    <a href="/create" class="text-sm text-gray-700 dark:text-gray-500 underline">demander une reservation</a>
+>>>>>>> Stashed changes
 </div>
 
 <div class="title">
